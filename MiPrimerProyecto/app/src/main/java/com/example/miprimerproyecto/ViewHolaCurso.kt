@@ -12,11 +12,11 @@ fun ViewHolaCurso() {
             color = Color(0xFF6200EE)
         )
         Spacer(modifier = Modifier.height(20.dp))
+        // Cambio en rama-compañero
         Text(
-            text = "Hello, Student!",
-            fontSize = 22.sp,
+            text = "Hello from rama-compañero!",
+            fontSize = 24.sp,
             color = Color.Gray
         )
     }
 }
-
