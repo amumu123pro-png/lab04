@@ -11,12 +11,10 @@ fun ViewHolaCurso() {
             fontWeight = FontWeight.ExtraBold,
             color = Color(0xFF6200EE)
         )
-        Spacer(modifier = Modifier.height(20.dp))
-        // Cambio en rama-compañero
         Text(
-            text = "Hello from rama-compañero!",
+            text = "Hello from both!",
             fontSize = 24.sp,
             color = Color.Gray
         )
+
     }
-}
