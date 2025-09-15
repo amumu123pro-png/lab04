@@ -1,4 +1,4 @@
-fun ViewHolaCurso() {
+fun ViewTercerComponente() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -6,18 +6,17 @@ fun ViewHolaCurso() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Welcome to the Course!",
-            fontSize = 30.sp,
-            fontWeight = FontWeight.ExtraBold,
+            text = "Tercer Componente",
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
             color = Color(0xFF6200EE)
         )
         Spacer(modifier = Modifier.height(20.dp))
-        // Cambio en rama-compañero
         Text(
-            text = "Hello from rama-compañero!",
-            fontSize = 24.sp,
-            color = Color.Gray
+            text = "Contenido del tercer componente",
+            fontSize = 18.sp,
+            color = Color.DarkGray
         )
     }
 }
-
+#%%
